@@ -6,8 +6,11 @@ class spiderman {
         this.name = name,
         this.age = age,
         this.actor = actor,
-        this.movies = [movies],
+        this.movies = [],
         this.studio = studio
+    }
+    getInfo() {
+        return `Hey, I'm ${this.actor} from ${this.studio} studios.`;
     }
 }
 
